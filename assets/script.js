@@ -3,6 +3,8 @@ function shuffle() {
     let a = Math.floor(Math.random()*6)+1;
     let b = Math.floor(Math.random()*6)+1;
     
+    document.querySelectorAll(".fa-solid")[0].classList.add("rotate") ;
+    document.querySelectorAll(".fa-solid")[1].classList.add("rotate") ;
     // dice 1
     if(a===5) {
         document.querySelector(".dice1").innerHTML="<i class='fa-solid fa-dice-five'></i>" ;
@@ -20,6 +22,7 @@ function shuffle() {
         document.querySelector(".dice1").innerHTML="<i class='fa-solid fa-dice-one'></i>" ;
     }
     
+    // document.querySelector(".fa-solid").classList.add("rotate") ;
     // dice 2 
     if(b===5) {
         document.querySelector(".dice2").innerHTML="<i class='fa-solid fa-dice-five'></i>" ;
@@ -36,4 +39,8 @@ function shuffle() {
     else if(b===1) {
         document.querySelector(".dice2").innerHTML="<i class='fa-solid fa-dice-one'></i>" ;
     }
+
+    document.querySelectorAll(".fa-solid")[0].classList.add("rotate") ;
+    document.querySelectorAll(".fa-solid")[1].classList.add("rotate") ;
+
 }
