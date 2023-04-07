@@ -1,0 +1,49 @@
+body { 
+    text-align: center;
+    background-color: black;
+    font-family: 'EB Garamond', serif; 
+}
+p {
+    margin: 0px;
+}
+/* header */
+.top {
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: #fbceff;
+}
+
+.row {
+    margin: 0rem 0rem 2rem;
+}
+.col {
+    padding: 3rem;
+}
+.dice i {
+    height: 50%;
+    font-size: 9rem;
+    color: floralwhite;
+}
+
+/* button */
+.btn {
+    color: aliceblue;
+}
+
+/* footer */
+
+.bottom {
+    padding-top: 2rem;
+    text-decoration: none;
+}
+.bottom a{
+    text-decoration: none;
+    color: inherit;
+}
+.bottom i{
+    margin: 0 1rem;
+}
+.bottom a:hover{
+    color: rgb(192, 93, 192);
+}
+
